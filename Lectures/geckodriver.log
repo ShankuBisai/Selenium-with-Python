@@ -1,0 +1,139 @@
+1611647405753	geckodriver	INFO	Listening on 127.0.0.1:53704
+1611647405786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofilepW9uB8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611647412038	Marionette	INFO	Listening on port 53709
+1611647412160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Child 16160, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1611647415854	Marionette	INFO	Stopped listening on port 53709
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611652121506	geckodriver	INFO	Listening on 127.0.0.1:63965
+1611652122002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofilehLxguk"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611652125782	Marionette	INFO	Listening on port 63970
+1611652126207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611652129277	Marionette	INFO	Stopped listening on port 63970
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611656234444	geckodriver	INFO	Listening on 127.0.0.1:64472
+1611656234954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofilerXYCCZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611656238995	Marionette	INFO	Listening on port 64477
+1611656239162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611656243192	Marionette	INFO	Stopped listening on port 64477
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611656467663	geckodriver	INFO	Listening on 127.0.0.1:64577
+1611656468246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofiler0cwHt"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1611721979899	geckodriver	INFO	Listening on 127.0.0.1:51204
+1611721980444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileTp1Nzh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611721984478	Marionette	INFO	Listening on port 51210
+1611721984683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611722098129	geckodriver	INFO	Listening on 127.0.0.1:51332
+1611722098677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileHeWlHh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611722101616	Marionette	INFO	Listening on port 51337
+1611722101887	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611722126081	geckodriver	INFO	Listening on 127.0.0.1:51412
+1611722126650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofile0b8rXu"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611722129540	Marionette	INFO	Listening on port 51417
+1611722129850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724173302	geckodriver	INFO	Listening on 127.0.0.1:53052
+1611724173880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileSNVHzQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724177259	Marionette	INFO	Listening on port 53057
+1611724177605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724255427	geckodriver	INFO	Listening on 127.0.0.1:53177
+1611724255974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileQH0W40"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724259142	Marionette	INFO	Listening on port 53183
+1611724259225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724783446	geckodriver	INFO	Listening on 127.0.0.1:53705
+1611724784033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofilef5cHSg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724787322	Marionette	INFO	Listening on port 53710
+1611724787788	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724811473	geckodriver	INFO	Listening on 127.0.0.1:53790
+1611724812067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofiledtHv38"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724815406	Marionette	INFO	Listening on port 53797
+1611724815809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724835525	geckodriver	INFO	Listening on 127.0.0.1:53875
+1611724836094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofile0fwnuD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724839567	Marionette	INFO	Listening on port 53881
+1611724839854	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611724901097	geckodriver	INFO	Listening on 127.0.0.1:53995
+1611724901742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileQUzhSO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611724905243	Marionette	INFO	Listening on port 54000
+1611724905498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 3002 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 3002 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=20065d87800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=20065d87800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=2000076f000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=2000076f000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=20001fdb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=20001fdb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 60, AudioIPC0] WARNING: 2000b6532e0 StateCallback() state 1 cubeb error: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:681
+[Child 60, MediaDecoderStateMachine #1] WARNING: Decoder=20000776800 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3892
+1611765280646	geckodriver	INFO	Listening on 127.0.0.1:58334
+1611765281219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofileEMKheE"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611765285557	Marionette	INFO	Listening on port 58339
+1611765286074	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 5738 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 5738 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611765301084	geckodriver	INFO	Listening on 127.0.0.1:58483
+1611765301649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofiletCs3CE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611765305554	Marionette	INFO	Listening on port 58488
+1611765305848	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611765315263	Marionette	INFO	Stopped listening on port 58488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623591777656	geckodriver	INFO	Listening on 127.0.0.1:50127
+1623591778183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bisai\\AppData\\Local\\Temp\\rust_mozprofilegXRNT5"
+1623591780310	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623591784812	Marionette	INFO	Listening on port 50132
+1623593078766	Marionette	INFO	Stopped listening on port 50132
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

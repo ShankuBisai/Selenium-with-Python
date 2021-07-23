@@ -1,0 +1,279 @@
+his file will have the notes of the Lectures
+Will only cover the notes of the Lectures that I find Important
+I wont cover the notes that i have already covered in some other lectures and they are the same in this lecture as well
+--------------------------------------------------------------------------------------------------
+
+Selenium WebDriver With Python - Installation & First Code - Part 1
+-----------------------------------------------------------------------
+did the installation of all the necessary items
+wrote a code for running it in browser
+
+
+Python WebDriverManager with Selenium || Cross Browser Testing. - Part 2
+----------------------------------------------------------------------
+written code for the webdriver manager
+
+
+
+Different Locators in Selenium-Python - Part 3
+---------------------------------------------------------------------
+already covered the different type of locators in some other lectures
+
+
+
+Select Drop Down Values in Selenium Python - Part 4
+---------------------------------------------------------------------
+elements = select.options  #it will give the list of all the elements in the dropdown
+
+    select.select_by_index()  #These are the methods that are used
+    select.select_by_value()
+    select.select_by_visible_text()
+    select.select_by_value()
+    select.select_by_index()
+    select.select_by_visible_text()
+    select.options
+    select.deselect_all()
+    select.all_selected_options
+    select.deselect_by_index()
+    select.deselect_by_visible_text()
+    select.deselect_by_value()
+    select.first_selected_option
+    select.is_multiple
+
+
+
+
+Handle JQuery Multi Select Drop Down (Interview Question) - Selenium Python - Part 5
+---------------------------------------------------------------------
+code written for the same
+
+
+
+MoveToElement || DragAndDrop || RightClick || User Actions in Selenium -Python Part 6
+---------------------------------------------------------------------
+code written for the move to element action
+I tried writing a generic code
+
+did not write code for the drag and drop self explantory what we use is as below
+action = ActionChains(self.driver)
+action.drag_and_drop(sourceElement,targetElement).perform()
+or
+action.click_and_hold(sourceElement).move_to_element(target).release().perform()
+
+did not write the code for context click this is the method that we use
+action.context_click(element).perform()
+
+We can use click to click an element and send_keys_to_element to send data to an element also with ActionChains class
+the lectures wrote the code for the same but i did not write it
+
+
+
+Handle Alert Pop Up | Frames | File Upload Pop Up | Authentication Pop Up - Selenium Python - Part 7
+--------------------------------------------------------------------
+Alert popup
+--------------
+the method that we use to switch to alert is --->alert=driver.switch_to.alert
+the method that we use to accept the alert is --->alert.accept()
+the method that we use to dismiss the alert is --->alert.dismiss()
+the method that we use to send text to alert is --->alert.send_keys()
+
+TO move the control from the alert to the main page we use --->driver.switch_to.default_content()
+
+I did not write the code of the alert as this I have already covered in some other Lectures
+
+Frame popup
+------------
+Frame are hardly used now in webpages as it is not a good practise
+
+the method that we use to switch to frame is --->driver.switch_to.frame(frameindex or framename or  frameid)
+or we can do the following
+frame_element = driver.find_element(By.locator,locatorname)
+driver.switch_to.frame(frame_element)
+
+TO move the control from the frame to the main page we use --->driver.switch_to.default_content()
+
+I did not write the code as it was self explanatory
+
+
+Authentication popup
+----------------
+sometimes what happens is when we visit a URL we get the username and password to enter
+eg.When you login to the router homepage
+so such situations what we can do is we can pass the username and the password in the credentials itself
+https://username:password@url
+
+did not write the code as it is not used that much
+
+
+File Upload
+----------------
+We can also upload the file using selenium
+When we click on the file upload icon in a website we get a popup which cannot be handled by selenium
+for that we have to use sikuli or autoit However there is a hack
+we an do the following
+
+download_button = driver.find_element(By.locator,locatorname)
+download_button.send_keys(path of the file)
+
+but for this to happen we should have the type of the webelement as type="file"
+I did not write the code for the same
+
+
+
+Browser Back & Forward || Handle Cookies in Selenium Python - Part 8
+-----------------------------------------------------------------------------
+Back and Forward
+------------------------
+driver.back()
+driver.forward()
+
+
+
+HeadLess Chrome and Firefox in Selenium Python - Part 9
+------------------------------------------------------------------------------
+code written for the same
+modified the WebDriverManager Class
+
+
+
+How to take Screenshot (Full Page) in Selenium Python - Part 10
+-----------------------------------------------------------------------------
+code written for the same
+to take the full screenshot we have to run the testcase in headless mode
+
+
+
+ImplicitlyWait - Dynamic Wait in Selenium - Python - Part 11
+-------------------------------------------------------------------------------
+it is a global wait
+applies to the elements that are located by find_element or find_elements
+it only applies to Web Elements
+
+did not write the code
+
+
+
+
+Explicit - WebDriverWait in Selenium Python - 12
+--------------------------------------------------------------------------------
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+wait = WebDriverWait(self.driver,10)
+wait.until(EC.presence_of_element_located("WebElement"))
+
+Need to go through the methods that are present in explicit wait.
+Did not write the program
+
+
+
+Execute Javascript using Selenium Python - Part 13
+---------------------------------------------------------------------------------
+Written code for the same for the following things
+
+a)click element using javascript executor
+b)get page title using javascript executor
+c)page refresh using javascript executor
+d)generate alert using javascript executor
+e)generate page Text using javascript executor
+f)change border of a text using javascript executor
+
+all wrote the various scrolling methods using javascript
+also wrote a method to send data to element using javascript
+
+
+
+
+How to handle certificate error using Selenium - Python - Part 14
+---------------------------------------------------------------------------------
+code written for the same
+
+
+
+Read Excel Sheet - Data Driven Approach in Selenium Python - Part 15
+---------------------------------------------------------------------------------
+I have written the code for reading the data from excel.
+I have to see how to pass the data to excel using some parameterization concept
+
+
+
+
+Part 1: PyTest : Python Test Framework Tutorials
+--------------------------------------------------------------------------------
+created a seprate package for pytest lectures
+created a python file as PytestBasics
+also created a test_demo1.py file
+we can execute the pytest using py.test
+we can run a particular file as py.test filename
+we can run a particular test as py.test -k _m10 -v
+
+
+
+
+Part 2: PyTest - Run your test with Markers and In Parallel Mode
+-------------------------------------------------------------------------------
+need to read about pytest marker
+We can also mark a test according to some marker
+added marker in two of the testcases
+we can run the testcases with marker by---> py.test -m login -v
+
+we can also run the testcases in parallel
+for that we have to use the package pytest-xdist that we done by the commands pip install pytest-xdist
+created a file as test_webPage_MMT and added three test methods
+to run the testcases parallely we will use the following command py.test test_webPage_MMT.py -n 4 -v -s
+
+
+
+Part 3: PyTest Fixtures with Selenium || PyTest Html Report
+--------------------------------------------------------------------------------
+created a file as test_Google.py
+creeatd a conftest file for fixtures
+created a setup fixture we can change that to class level funtion level etc
+installed the html report using the command pip install pytest-html
+created a report of all the testcases using the command pytest -v -s --html=test_report.html
+
+
+
+Part 4 - PyTest Fixtures with Class Scope || Fixture parameters || PyTest Selenium Test
+-----------------------------------------------------------------------------
+created a fixture in the same conftest class that take parameters as browser
+created two tests in the same test_Google.py file
+run the testcases using the command pytest test_Google.py -v -s --html=test_report_params.html
+to run the testcases parallely what we did was pytest test_Google.py -n 4 -v -s --html=test_report_params.html
+
+
+
+Part 5 - Create Global Pytest Fixture using conftest.py file
+------------------------------------------------------------------------------
+already created a conftest and created fixtures there in the conftest file
+
+
+
+Part 6 - How to Parametrize test in PyTest (Parameterization)
+-----------------------------------------------------------------------------
+created a file as test_param.py
+Will have to see how to create paramters from excel
+
+
+
+Page Object Model - Python Selenium with PyTest - Part 1
+---------------------------------------------------------------------------
+This is the framework part
+will create a separate folder for the framework
+created the basic folder structure
+and written few utility methods in the Base classs
+
+
+
+
+Page Object Model - Python Selenium with PyTest - Part 2
+----------------------------------------------------------------------------
+Procedded with the Framework Implementation part
+
+
+
+
+
+
+
+
+
